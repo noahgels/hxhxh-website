@@ -1,6 +1,6 @@
 import GeneralHead from "../components/heads/GeneralHead";
 
-export default function () {
+export default function About() {
 
 
   return (

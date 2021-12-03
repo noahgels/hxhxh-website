@@ -3,11 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import darkWithText from '../public/images/photos/band/dark-with-title.jpg';
-import musicImage from '../public/MUSICHXHXH.jpg';
-import videosImage from '../public/VIDEOSHXHXH.jpg';
-import aboutUsImage from '../public/ABOUTUSHXHXH.jpg';
-import merchImage from '../public/MERCHHXHXH.jpg';
 import GeneralHead from "../components/heads/GeneralHead";
+import Music from "../components/index/music/Music";
+import About from "../components/index/about/About";
 
 const description = 'Wilkommen auf unserer offiziellen Website';
 
@@ -27,31 +25,8 @@ export default function Home() {
           src={darkWithText}
           alt="Header Image"
         />
-        <h2>Music</h2>
-        <Image
-          className={styles.musicImage}
-          src={musicImage}
-          alt="Music Image"
-        />
-        <h2>Videos</h2>
-        <Image
-          className={styles.videosImage}
-          src={videosImage}
-          alt="Videos Image"
-        />
-        <h2>About us</h2>
-        <Image
-          className={styles.aboutUsImage}
-          src={aboutUsImage}
-          alt="About us Image"
-        />
-        <h2>Merch</h2>
-        <div className={styles.imageContainer}>
-          <Image
-            src={merchImage}
-            alt={'Merch Bild konnte nicht geladen werden'}
-          />
-        </div>
+        <Music />
+        <About />
       </main>
 
       <footer className={styles.footer}>

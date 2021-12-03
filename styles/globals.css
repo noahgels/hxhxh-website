@@ -9,8 +9,9 @@ body {
 
 :root {
     --bg-primary: #000;
-
     --font-color: #fefefe;
+    --transition: ease 0.3s;
+    --shadow: 0 0rem 1.2rem 0.2rem #333333;
 }
 
 a {
@@ -21,8 +22,17 @@ a {
 h2 {
     text-align: center;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 * {
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 330px) {
+
+    body {
+        overflow: scroll;
+        width: 330px;
+    }
 }

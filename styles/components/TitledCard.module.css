@@ -1,0 +1,22 @@
+
+
+.imageContainer {
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    border-radius: 0.1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.imageContainer:hover {
+    transform: scale(1.05);
+}
+
+.imageContainer:active {
+    transform: scale(0.95);
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: normal;
+}

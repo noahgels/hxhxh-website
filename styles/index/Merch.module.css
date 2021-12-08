@@ -17,11 +17,15 @@
     flex-direction: row;
 }
 
+.link {
+    color: #0097ff
+}
+
 .text {
-    margin: 1rem 2rem 3rem 2rem;
-    text-align: justify;
+    margin: 1rem 2rem 0 2rem;
     color: var(--text-color);
     line-height: 1.18rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 500px) {

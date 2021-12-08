@@ -6,6 +6,11 @@
 
 }
 
+.video {
+    width: calc(100vw - 4rem);
+    height: calc((100vw - 4rem) * 9 / 16);
+}
+
 .imageContainer {
     width: 80vw;
     margin: 0 auto;
@@ -18,4 +23,29 @@
 
 .footer a {
     text-decoration: underline;
+}
+
+.hr {
+    margin: 2rem 2rem 0 2rem;
+    height: 0.1pt;
+    background-color: #666;
+    border: none;
+}
+
+.aboutHref {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .video {
+        width: calc(800px - 4rem);
+        height: calc((800px - 4rem) * 9 / 16);
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .video {
+        width: calc(330px - 4rem);
+        height: calc((330px - 4rem) * 9 / 16);
+    }
 }

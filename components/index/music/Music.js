@@ -8,17 +8,17 @@ import TitledCard from "../../general/TitledCard";
 
 const items = [
   {
-    href: '#',
+    href: 'https://open.spotify.com/album/09M6ZqYJJhtbioezGW3CGa',
     title: 'Piece of Darkness',
     image: pieceOfDarkness,
   },
   {
-    href: '#',
+    href: 'https://open.spotify.com/album/2YyBdnRqCkUwIvLLY0Nmsc',
     title: 'HxHxH',
     image: hxhxh,
   },
   {
-    href: '#',
+    href: 'https://open.spotify.com/album/620PKO9Om49iNGzA6csWJG',
     title: 'Glasgow Smile',
     image: glasgowSmile,
   },
@@ -33,7 +33,7 @@ export default function Music(props) {
       <ul className={styles.ul}>
         {items.map((item, index) =>
           <li
-            key={item.title + index}
+            key={index}
             className={styles.li}
           >
             <TitledCard {...item}/>

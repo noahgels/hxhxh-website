@@ -11,7 +11,7 @@ body {
     --bg-primary: #000;
     --font-color: #fefefe;
     --transition: ease 0.3s;
-    --shadow: 0 0rem 1.2rem 0.2rem var(--shadow-color);
+    --shadow: 0 0rem 0.6rem 0.2rem var(--shadow-color);
     --shadow-color: #333333;
     --text-color:  #ddd;
 }

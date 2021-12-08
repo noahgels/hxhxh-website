@@ -1,18 +1,21 @@
 
 .imageContainer {
-    transition: var(--transition);
     box-shadow: var(--shadow);
     overflow: hidden;
     border-radius: 0.2rem;
     display: flex;
 }
 
-.imageContainer:hover {
+.image {
+    transition: var(--transition);
+}
+
+.imageContainer:hover .image {
     transform: scale(1.05);
 }
 
-.imageContainer:active {
-    transform: scale(0.95);
+.imageContainer:active .image {
+    transform: scale(1);
 }
 
 .subtitle {

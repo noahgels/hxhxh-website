@@ -25,6 +25,7 @@ export default function Home() {
           src={darkWithText}
           alt="Header Image"
         />
+        <h1 style={{display: 'none'}}>Heartless Human Harvest</h1>
         <Music />
         <About />
       </main>

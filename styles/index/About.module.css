@@ -10,3 +10,10 @@
 .li {
     margin: 1rem;
 }
+
+.text {
+    margin: 0 2rem;
+    text-align: justify;
+    color: var(--text-color);
+    line-height: 1.18rem;
+}

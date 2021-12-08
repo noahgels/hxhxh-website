@@ -1,11 +1,10 @@
 
-
 .imageContainer {
     transition: var(--transition);
     box-shadow: var(--shadow);
-    border-radius: 0.1rem;
     overflow: hidden;
-    box-sizing: border-box;
+    border-radius: 0.2rem;
+    display: flex;
 }
 
 .imageContainer:hover {

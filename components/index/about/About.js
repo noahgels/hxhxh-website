@@ -35,14 +35,22 @@ export default function About(props) {
     <section>
       <h2>Über uns</h2>
       <ul className={styles.ul}>
-        {members.map((member) =>
-          <li key={member.name} className={styles.li}>
+        {members.map((member, index) =>
+          <li key={member.name + index} className={styles.li}>
             <TitledCard
               {...member}
             />
           </li>
         )}
       </ul>
+      <p className={styles.text}>
+        Heartless Human Harvest bringen euch mit fetzigen Riffs und knalligen Breakdowns,
+        die zum Headbangen animieren, eine gute Mischung aus Metal- und Deathcore.
+        Die Songs bieten sehr viel Variation und es lassen sich immer wieder neue
+        Elemente und Einflüsse darin wiederfinden. Die vier Jungs aus dem Emsland
+        haben es sich zur Mission gemacht, den Core vor allem in der jungen
+        Generation weiter zu etablieren
+      </p>
     </section>
   )
 }

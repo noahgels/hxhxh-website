@@ -31,9 +31,9 @@ export default function Music(props) {
     <section className={styles.container}>
       <h2>Musik</h2>
       <ul className={styles.ul}>
-        {items.map((item) =>
+        {items.map((item, index) =>
           <li
-            key={item.title}
+            key={item.title + index}
             className={styles.li}
           >
             <TitledCard {...item}/>

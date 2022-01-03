@@ -21,7 +21,7 @@ export default function Home() {
             </GeneralHead>
             <header>
                 <HeaderImage/>
-                <h1 style={{display: 'inline'}}>Heartless Human Harvest</h1>
+                <h1 style={{display: 'none'}}>Heartless Human Harvest</h1>
             </header>
             <main className={styles.main}>
                 <p className={styles.text}>

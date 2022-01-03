@@ -1,12 +1,11 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import darkWithText from '../public/images/photos/band/dark-with-title.jpg';
 import GeneralHead from "../components/heads/GeneralHead";
 import Music from "../components/index/music/Music";
 import About from "../components/index/about/About";
 import Merch from "../components/index/merch/Merch";
+import HeaderImage from "../components/general/HeaderImage";
+import {useEffect} from "react";
 
 const description = 'Wilkommen auf unserer offiziellen Website';
 
@@ -20,13 +19,19 @@ export default function Home() {
                 <meta property="og:image" content="/images/icons/logo-400x400.png"/>
                 <meta property="og:description" content={description}/>
             </GeneralHead>
+            <header>
+                <HeaderImage/>
+                <h1 style={{display: 'inline'}}>Heartless Human Harvest</h1>
+            </header>
             <main className={styles.main}>
-                <Image
-                    className={styles.headerImage}
-                    src={darkWithText}
-                    alt="Header Image"
-                />
-                <h1 style={{display: 'none'}}>Heartless Human Harvest</h1>
+                <p className={styles.text}>
+                    Heartless Human Harvest bringen euch mit fetzigen Riffs und knalligen Breakdowns,
+                    die zum Headbangen animieren, eine gute Mischung aus Metal- und Deathcore.
+                    Die Songs bieten sehr viel Variation und es lassen sich immer wieder neue
+                    Elemente und Einflüsse darin wiederfinden. Die vier Jungs aus dem Emsland
+                    haben es sich zur Mission gemacht, den Core vor allem in der jungen
+                    Generation weiter zu etablieren
+                </p>
                 <Music/>
                 <section>
                     <h2>Videos</h2>
@@ -35,7 +40,7 @@ export default function Home() {
                         justifyContent: 'center',
                     }}>
                         <iframe
-                            src="https://www.youtube.com/embed/gbbVoXvk62M"
+                            src="https://www.youtube.com/embed/lDq-zRM97pA"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -46,6 +51,12 @@ export default function Home() {
                 </section>
                 <About/>
                 <Merch/>
+                <div className={styles.hider}>
+                    <img
+                      src="/images/logos/logo-white.png"
+                      className={styles.hiderImage}
+                    />
+                </div>
             </main>
             <hr className={styles.hr}/>
             <footer className={styles.footer}>

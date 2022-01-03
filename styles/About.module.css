@@ -1,0 +1,13 @@
+
+
+.main {
+    margin: 0 2rem;
+}
+
+.main p a {
+    color: var(--link-color);
+}
+
+.h2 {
+    text-align: start;
+}

@@ -6,6 +6,14 @@
 
 }
 
+.text {
+    margin: 1rem 2rem 3rem 2rem;
+    text-align: justify;
+    color: var(--text-color);
+    line-height: 1.18rem;
+    font-family: 'Gobold', serif;
+}
+
 .video {
     width: calc(100vw - 4rem);
     height: calc((100vw - 4rem) * 9 / 16);
@@ -34,6 +42,53 @@
 
 .aboutHref {
     margin-bottom: 1rem;
+    font-size: 0.75rem;
+}
+
+.hider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    animation: fadeOut linear 1s;
+    z-index: 999;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiderImage {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    animation: alternate 0.5s showActivity;
+    animation-iteration-count: 10;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes showActivity {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (min-width: 800px) {

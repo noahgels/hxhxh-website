@@ -8,22 +8,22 @@ import styles from '../../../styles/index/About.module.css';
 
 const members = [
     {
-        href: '/yanyan',
+        href: 'https://www.instagram.com/yannic.krmr/',
         title: 'Yannic',
         image: yanyanThumbnail,
     },
     {
-        href: '/manny',
+        href: 'https://www.instagram.com/jonas_manny/',
         title: 'Jonas',
         image: mannyThumbnail,
     },
     {
-        href: '/benny',
+        href: 'https://www.instagram.com/beennyy__/',
         title: 'Benny',
         image: bennyThumbnail,
     },
     {
-        href: '/marcel',
+        href: 'https://www.instagram.com/marcel_heet_1998/',
         title: 'Marcel',
         image: marcelThumbnail,
     },
@@ -60,14 +60,6 @@ export default function About(props) {
                     </li>
                 </div>
             </ul>
-            <p className={styles.text}>
-                Heartless Human Harvest bringen euch mit fetzigen Riffs und knalligen Breakdowns,
-                die zum Headbangen animieren, eine gute Mischung aus Metal- und Deathcore.
-                Die Songs bieten sehr viel Variation und es lassen sich immer wieder neue
-                Elemente und Einflüsse darin wiederfinden. Die vier Jungs aus dem Emsland
-                haben es sich zur Mission gemacht, den Core vor allem in der jungen
-                Generation weiter zu etablieren
-            </p>
         </section>
     )
 }

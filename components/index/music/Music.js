@@ -1,21 +1,21 @@
 import styles from '../../../styles/index/Music.module.css';
 
 import pieceOfDarkness from '../../../public/images/covers/piece-of-darkness.jpg';
-import hxhxh from '../../../public/images/covers/hxhxh.jpg';
+import actOfCreation from '../../../public/images/covers/act-of-creation.jpg';
 import glasgowSmile from '../../../public/images/covers/glasgow-smile.jpg';
 
 import TitledCard from "../../general/TitledCard";
 
 const items = [
   {
+    href: 'https://open.spotify.com/album/4rRscwsFDkiqS2YxH31dtB',
+    title: 'Act of Creation',
+    image: actOfCreation,
+  },
+  {
     href: 'https://open.spotify.com/album/09M6ZqYJJhtbioezGW3CGa',
     title: 'Piece of Darkness',
     image: pieceOfDarkness,
-  },
-  {
-    href: 'https://open.spotify.com/album/2YyBdnRqCkUwIvLLY0Nmsc',
-    title: 'HxHxH',
-    image: hxhxh,
   },
   {
     href: 'https://open.spotify.com/album/620PKO9Om49iNGzA6csWJG',

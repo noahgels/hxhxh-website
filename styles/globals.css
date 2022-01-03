@@ -2,9 +2,15 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Baskerville', serif;
+    font-family: 'Gobold', serif;
     background-color: var(--bg-primary);
+    background-image: url('/images/backgrounds/paper-texture.jpg');
     color: var(--font-color);
+}
+
+@font-face {
+    font-family: Gobold;
+    src: url("/fonts/Gobold Regular.otf") format("opentype");
 }
 
 :root {
@@ -14,6 +20,7 @@ body {
     --shadow: 0 0rem 0.6rem 0.2rem var(--shadow-color);
     --shadow-color: #333333;
     --text-color:  #ddd;
+    --link-color: #0097ff;
 }
 
 a {

@@ -28,6 +28,10 @@ export default function About() {
               49811 Lingen</p>
 
           <p>Quelle: <a href="https://www.e-recht24.de">eRecht24</a></p>
+          <p>
+              Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.
+              Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich
+          </p>
       </main>
     </div>
   )

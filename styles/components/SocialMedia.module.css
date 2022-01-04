@@ -1,0 +1,21 @@
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    transition: 0.3s ease;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
+}
+

@@ -3,9 +3,12 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Gobold', serif;
+    color: var(--font-color);
+}
+
+html {
     background-color: var(--bg-primary);
     background-image: url('/images/backgrounds/paper-texture.jpg');
-    color: var(--font-color);
 }
 
 @font-face {

@@ -17,6 +17,12 @@
 .video {
     width: calc(100vw - 4rem);
     height: calc((100vw - 4rem) * 9 / 16);
+    box-shadow: var(--shadow);
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .imageContainer {
@@ -52,13 +58,16 @@
     width: 100vw;
     height: 100vh;
     background: black;
-    animation: fadeOut linear 1s;
     z-index: 999;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s ease;
+}
+
+.shown {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .hiderImage {
@@ -67,19 +76,6 @@
     object-fit: contain;
     animation: alternate 0.5s showActivity;
     animation-iteration-count: 10;
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        z-index: -1;
-    }
 }
 
 @keyframes showActivity {

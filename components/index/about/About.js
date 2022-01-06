@@ -10,21 +10,25 @@ const members = [
     {
         href: 'https://www.instagram.com/yannic.krmr/',
         title: 'Yannic',
+        subtitle: 'Drums',
         image: yanyanThumbnail,
     },
     {
         href: 'https://www.instagram.com/jonas_manny/',
         title: 'Jonas',
+        subtitle: 'Gitarre',
         image: mannyThumbnail,
     },
     {
         href: 'https://www.instagram.com/beennyy__/',
         title: 'Benny',
+        subtitle: 'Gitarre',
         image: bennyThumbnail,
     },
     {
         href: 'https://www.instagram.com/marcel_heet_1998/',
         title: 'Marcel',
+        subtitle: 'Vocals',
         image: marcelThumbnail,
     },
 ]
@@ -32,7 +36,7 @@ const members = [
 export default function About(props) {
 
     return (
-        <section>
+        <section className={styles.container}>
             <h2>Über uns</h2>
             <ul className={styles.ul}>
                 <div className={styles.row}>

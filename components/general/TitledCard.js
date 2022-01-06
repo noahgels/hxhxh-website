@@ -23,13 +23,14 @@ function Content(props) {
             <div className={styles.imageContainer}>
                 <Image
                     src={props.image}
-                    alt={props.title}
+                    alt={props.title || props.href}
                     className={styles.image}
                 />
             </div>
-            {props.title ? <h3 className={styles.subtitle}>
+            {props.title ? <h3 className={styles.title}>
                 {props.title}
             </h3> : null}
+          {props.subtitle ? <p className={styles.subtitle}>{props.subtitle}</p> : null}
         </>
     )
 }

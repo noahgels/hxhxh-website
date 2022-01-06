@@ -14,7 +14,7 @@ export default function GeneralHead(props) {
       <link rel="manifest" href="/images/icons/site.webmanifest"/>
       <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#5bbad5"/>
       <meta name="msapplication-TileColor" content="#da532c"/>
-      <meta name="theme-color" content="#000000"/>
+      <meta name="theme-color" content="#0a0a0a"/>
       {props.children}
     </Head>
   )

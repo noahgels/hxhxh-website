@@ -18,7 +18,17 @@
     transform: scale(1);
 }
 
+.title {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
 .subtitle {
     text-align: center;
     font-weight: normal;
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--text-color-secondary)
 }

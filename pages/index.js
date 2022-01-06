@@ -32,6 +32,7 @@ export default function Home() {
           width={'100%'}
           onLoad={() => setLoaded(true)}
           ref={image}
+          alt="Header Image"
         />
         <h1 style={{display: 'none'}}>Heartless Human Harvest</h1>
       </header>
@@ -40,6 +41,7 @@ export default function Home() {
           <img
             src="/images/logos/logo-white.png"
             className={styles.hiderImage}
+            alt="Loading Image"
           />
         </div>
         <SocialMedia/>

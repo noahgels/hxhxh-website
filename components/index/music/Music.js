@@ -24,8 +24,7 @@ const items = [
   },
 ]
 
-export default function Music(props) {
-
+export default function Music() {
 
   return (
     <section className={styles.container}>

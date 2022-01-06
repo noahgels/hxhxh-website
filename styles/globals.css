@@ -24,6 +24,7 @@ html {
     --shadow-color: #333333;
     --text-color:  #ddd;
     --link-color: #0097ff;
+    --text-color-secondary: #aaa;
 }
 
 a {

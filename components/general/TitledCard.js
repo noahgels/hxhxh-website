@@ -7,7 +7,7 @@ export default function TitledCard(props) {
     if (props.href) {
         return (
             <Link href={props.href}>
-                <a>
+                <a target="_blank">
                     <Content {...props}/>
                 </a>
             </Link>

@@ -24,7 +24,7 @@ export default function About() {
 
           <h2 className={styles.h2}>Redaktionell verantwortlich</h2>
           <p>Jonas Kramer<br />
-              Wespenweg Keine Ahnung<br />
+              Wespenweg 4<br />
               49811 Lingen</p>
 
           <p>Quelle: <a href="https://www.e-recht24.de">eRecht24</a></p>

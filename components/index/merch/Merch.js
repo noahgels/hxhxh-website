@@ -56,13 +56,19 @@ export default function Merch() {
           </li>
         </div>
       </ul>
-      <p className={styles.text}> Mehr Merch gibts bei{' '}
+      <p className={styles.text}>
+        Für den abgebildeten Merch schreibt uns auf{' '}
+        <Link href="https://www.instagram.com/hxhxh.band/#">
+          <a className={styles.link} target="_blank">
+            Instagram
+          </a>
+        </Link>.
+        Mehr Merch gibts bei{' '}
         <Link href="https://www.emp.de/search?cgid=root&prefn1=brandFun&prefv1=Heartless%20Human%20Harvest&noredirect=1">
-          <a className={styles.link}>
+          <a className={styles.link} target="_blank">
             EMP
           </a>
-        </Link>
-        .
+        </Link>.
       </p>
     </section>
   )

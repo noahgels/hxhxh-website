@@ -28,7 +28,7 @@ export default function SocialMedia() {
       {items.map(item =>
         <li key={item.href}>
         <Link href={item.href}>
-          <a>
+          <a target="_blank">
             <img
               className={styles.icon}
               src={`/images/logos/social/${item.icon}.svg`}

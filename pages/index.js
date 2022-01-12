@@ -83,9 +83,9 @@ export default function Home() {
           <h2>Kontakt</h2>
           <p className={styles.emailText}>
             An{' '}
-            <Link href="mailto:heartlesshumanharvest@gmail.com">
+            <Link href="mailto:heartless.human.harvest@gmail.com">
               <a style={{color: 'var(--link-color)'}}>
-                heartlesshumanharvest@gmail.com
+                heartless.human.harvest@gmail.com
               </a>
             </Link>
             {' '}könnt ihr uns eine Email schreiben

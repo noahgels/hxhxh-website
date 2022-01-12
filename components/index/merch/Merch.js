@@ -57,7 +57,7 @@ export default function Merch() {
         </div>
       </ul>
       <p className={styles.text}>
-        Für den abgebildeten Merch schreibt uns auf{' '}
+        Für das abgebildete Merch schreibt uns auf{' '}
         <Link href="https://www.instagram.com/hxhxh.band/#">
           <a className={styles.link} target="_blank">
             Instagram

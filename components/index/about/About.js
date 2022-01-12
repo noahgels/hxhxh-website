@@ -16,13 +16,13 @@ const members = [
     {
         href: 'https://www.instagram.com/jonas_manny/',
         title: 'Jonas',
-        subtitle: 'Gitarre',
+        subtitle: 'Guitar',
         image: mannyThumbnail,
     },
     {
         href: 'https://www.instagram.com/beennyy__/',
         title: 'Benny',
-        subtitle: 'Gitarre',
+        subtitle: 'Guitar',
         image: bennyThumbnail,
     },
     {

@@ -18,6 +18,7 @@
     width: calc(100vw - 4rem);
     height: calc((100vw - 4rem) * 9 / 16);
     box-shadow: var(--shadow);
+    margin-top: 1rem;
 }
 
 .videoContainer {
@@ -76,6 +77,11 @@
     object-fit: contain;
     animation: alternate 0.5s showActivity;
     animation-iteration-count: 10;
+}
+
+.emailText {
+    margin: 0 2rem;
+    text-align: center;
 }
 
 @keyframes showActivity {

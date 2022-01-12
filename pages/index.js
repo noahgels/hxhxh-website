@@ -57,18 +57,40 @@ export default function Home() {
         <section>
           <h2>Videos</h2>
           <div className={styles.videoContainer}>
-              <iframe
-                src="https://www.youtube.com/embed/lDq-zRM97pA"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className={styles.video}
-              />
+            <iframe
+              src="https://www.youtube.com/embed/lDq-zRM97pA"
+              title="Destruction Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className={styles.video}
+            />
+          </div>
+          <div className={styles.videoContainer} style={{marginTop: '2rem'}}>
+            <iframe
+              src="https://www.youtube.com/embed/gbbVoXvk62M"
+              title="Glasgow Smile Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className={styles.video}
+            />
           </div>
         </section>
         <About/>
         <Merch/>
+        <section style={{marginTop: '3rem'}}>
+          <h2>Kontakt</h2>
+          <p className={styles.emailText}>
+            An{' '}
+            <Link href="mailto:heartlesshumanharvest@gmail.com">
+              <a style={{color: 'var(--link-color)'}}>
+                heartlesshumanharvest@gmail.com
+              </a>
+            </Link>
+            {' '}könnt ihr uns eine Email schreiben
+          </p>
+        </section>
       </main>
       <hr className={styles.hr}/>
       <footer className={styles.footer}>

@@ -1,26 +1,22 @@
 import styles from "../../../styles/index/Merch.module.css";
 import TitledCard from "../../general/TitledCard";
 import Link from 'next/link';
-import merch1 from "../../../public/images/photos/merch/merch-1.jpg";
-import merch2 from "../../../public/images/photos/merch/merch-2.jpg";
-import merch3 from "../../../public/images/photos/merch/merch-3.jpg";
-import merch4 from "../../../public/images/photos/merch/merch-4.jpg";
 
 const merch = [
   {
-    image: merch1,
+    image: '/images/photos/merch/merch-1.jpg',
     href: 'https://www.instagram.com/p/CTkf0S7Du5T/',
   },
   {
-    image: merch2,
+    image: '/images/photos/merch/merch-2.jpg',
     href: 'https://www.instagram.com/p/CTkfwTTDI_r/',
   },
   {
-    image: merch3,
+    image: '/images/photos/merch/merch-3.jpg',
     href: 'https://www.instagram.com/p/CTkfp21MQDH/',
   },
   {
-    image: merch4,
+    image: '/images/photos/merch/merch-4.jpg',
     href: 'https://www.instagram.com/p/CTkfwTTDI_r/',
   },
 ]

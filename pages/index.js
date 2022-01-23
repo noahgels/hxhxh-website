@@ -7,7 +7,6 @@ import Merch from "../components/index/merch/Merch";
 import {useEffect, useRef, useState} from "react";
 import SocialMedia from "../components/index/social-media/SocialMedia";
 
-const description = 'Wilkommen auf unserer offiziellen Website';
 
 export default function Home() {
 
@@ -21,10 +20,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <GeneralHead title="Heartless Human Harvest">
-        <meta name="description" content={description}/>
-        <meta name="image" content="/images/icons/logo-400x400.png"/>
-        <meta property="og:image" content="/images/icons/logo-400x400.png"/>
-        <meta property="og:description" content={description}/>
+
       </GeneralHead>
       <header>
         <img
@@ -58,7 +54,7 @@ export default function Home() {
           <h2>Videos</h2>
           <div className={styles.videoContainer}>
             <iframe
-              src="https://www.youtube.com/embed/lDq-zRM97pA"
+              src="https://www.youtube-nocookie.com/embed/lDq-zRM97pA"
               title="Destruction Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -68,7 +64,7 @@ export default function Home() {
           </div>
           <div className={styles.videoContainer} style={{marginTop: '2rem'}}>
             <iframe
-              src="https://www.youtube.com/embed/gbbVoXvk62M"
+              src="https://www.youtube-nocookie.com/embed/gbbVoXvk62M"
               title="Glasgow Smile Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -94,10 +90,17 @@ export default function Home() {
       </main>
       <hr className={styles.hr}/>
       <footer className={styles.footer}>
-        <Link href="/about">
+        <Link href="/impressum">
           <a>
             <p className={styles.aboutHref}>
               Impressum
+            </p>
+          </a>
+        </Link>
+        <Link href="/datenschutz">
+          <a>
+            <p className={styles.aboutHref}>
+              Datenschutz
             </p>
           </a>
         </Link>

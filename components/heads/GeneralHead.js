@@ -1,5 +1,6 @@
 import Head from "next/head";
 
+const description = 'Wilkommen auf unserer offiziellen Website';
 
 export default function GeneralHead(props) {
 
@@ -15,6 +16,10 @@ export default function GeneralHead(props) {
       <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#5bbad5"/>
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#0a0a0a"/>
+      <meta name="description" content={description}/>
+      <meta name="image" content="/images/icons/logo-400x400.png"/>
+      <meta property="og:image" content="/images/icons/logo-400x400.png"/>
+      <meta property="og:description" content={description}/>
       {props.children}
     </Head>
   )

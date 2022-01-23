@@ -34,6 +34,8 @@
 .footer {
     text-align: center;
     padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .footer a {
@@ -50,6 +52,7 @@
 .aboutHref {
     margin-bottom: 1rem;
     font-size: 0.75rem;
+    padding: 5px;
 }
 
 .hider {

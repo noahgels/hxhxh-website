@@ -1,15 +1,21 @@
-import GeneralHead from "../../components/heads/GeneralHead";
-import styles from '../../styles/About.module.css';
-import HeaderImage from "../../components/general/HeaderImage";
+import styles from '../styles/About.module.css';
+import HeaderImage from "../components/general/HeaderImage";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Datenschutz() {
 
   return (
     <div>
-      <GeneralHead title="Datenschutz">
-
-      </GeneralHead>
+      <Head>
+        <title>Datenschutz - Heartless Human Harvest</title>
+      </Head>
+      <style>
+        {`
+        h2 {
+          text-align: left;
+        }`}
+      </style>
       <main className={styles.main}>
         <HeaderImage/>
         <h1>Datenschutz&shy;erkl&auml;rung</h1>

@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import GeneralHead from "../components/heads/GeneralHead";
 import Music from "../components/index/music/Music";
 import About from "../components/index/about/About";
 import Merch from "../components/index/merch/Merch";
 import {useEffect, useRef, useState} from "react";
 import SocialMedia from "../components/index/social-media/SocialMedia";
+import Head from "next/head";
 
 
 export default function Home() {
@@ -19,9 +19,9 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <GeneralHead title="Heartless Human Harvest">
-
-      </GeneralHead>
+      <Head>
+        <title>Heartless Human Harvest</title>
+      </Head>
       <header>
         <img
           src={'/images/photos/band/dark-band-title.jpg'}
@@ -90,20 +90,34 @@ export default function Home() {
       </main>
       <hr className={styles.hr}/>
       <footer className={styles.footer}>
-        <Link href="/impressum">
-          <a>
-            <p className={styles.aboutHref}>
-              Impressum
-            </p>
-          </a>
-        </Link>
-        <Link href="/datenschutz">
-          <a>
-            <p className={styles.aboutHref}>
-              Datenschutz
-            </p>
-          </a>
-        </Link>
+        <div className={styles.promo}>
+          <Link href={'https://noahgels.com'}>
+            <a className={styles.noahgelsLink}>
+              <img
+                src={'/images/noahgels/icon.png'}
+                className={styles.promoImage}
+                alt={'Noah Gels Logo'}
+              />
+              by Noah Gels
+            </a>
+          </Link>
+        </div>
+        <div className={styles.footerLinks}>
+          <Link href="/impressum">
+            <a>
+              <p className={styles.aboutHref}>
+                Impressum
+              </p>
+            </a>
+          </Link>
+          <Link href="/datenschutz">
+            <a>
+              <p className={styles.aboutHref}>
+                Datenschutz
+              </p>
+            </a>
+          </Link>
+        </div>
       </footer>
     </div>
   );

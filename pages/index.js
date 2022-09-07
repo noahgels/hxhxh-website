@@ -78,13 +78,12 @@ export default function Home() {
         <section style={{marginTop: '3rem'}}>
           <h2>Kontakt</h2>
           <p className={styles.emailText}>
-            An{' '}
+            Bookinganfragen gerne an {' '}
             <Link href="mailto:heartless.human.harvest@gmail.com">
               <a style={{color: 'var(--link-color)'}}>
                 heartless.human.harvest@gmail.com
               </a>
             </Link>
-            {' '}könnt ihr uns eine Email schreiben
           </p>
         </section>
       </main>

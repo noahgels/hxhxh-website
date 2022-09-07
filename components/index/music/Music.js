@@ -9,9 +9,9 @@ const items = [
     image: '/images/covers/act-of-creation.jpg',
   },
   {
-    href: 'https://open.spotify.com/album/09M6ZqYJJhtbioezGW3CGa',
-    title: 'Piece of Darkness',
-    image: '/images/covers/piece-of-darkness.jpg',
+    href: 'https://open.spotify.com/album/0kPleVKKMPaarQgV7gCpua?si=whKgGtphQLSbrJVwRYIBbQ',
+    title: 'Parasite',
+    image: '/images/covers/parasite.jpg',
   },
   {
     href: 'https://open.spotify.com/album/620PKO9Om49iNGzA6csWJG',
